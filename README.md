@@ -9,6 +9,8 @@ A Flask-RestFul application that can perform CRUD operations
 	- Rest API with Flask
 	- OOP
 	- Flask RestFul Resources
+	- curl
+	- httpie
 
 
 

@@ -1,11 +1,9 @@
 from flask import Flask
 from flask_restful import abort, Api, fields, marshal_with, reqparse, Resource
-from datatime import datatime
+import datatime
 from models import MessageModel
 import status
-from pytz import utc
-
-
+##from pytz import utc
 
 
 class MessageManager():
@@ -86,13 +84,13 @@ class Message(Resource):
 		parser.add_argument('printed_once', type=bool)
 		args = parser.parse_args()
 		if 'message' in args:
-		message.message = args['message']
+			message.message = args['message']
 		if 'duration' in args:
-		message.duration = args['duration']
+			message.duration = args['duration']
 		if 'printed_times' in args:
-		message.printed_times = args['printed_times']
+			message.printed_times = args['printed_times']
 		if 'printed_once' in args:
-		message.printed_once = args['printed_once']
+			message.printed_once = args['printed_once']
 		return message
 
 
@@ -129,7 +127,7 @@ class MessageList(Resource):
 		args = parser.parse_args()
 		message = MessageModel(message=args['message'],
 							duration=args['duration'],		
-							creation_date=datetime.now(utc),
+							creation_date=datetime.now(),
 							message_category=args['message_category']
 							)
 		message_manager.insert_message(message)
@@ -142,8 +140,8 @@ class MessageList(Resource):
 
 app = Flask(__name__)
 api = Api(app)
-api.add_resource(MessageList, "/api/message")
-api.add_resource(Message, "/api/message/<int:id>", 
+api.add_resource(MessageList, "/api/messages/")
+api.add_resource(Message, "/api/messages/<int:id>", 
 				endpoint = "message_endpoint"
 				)
 
