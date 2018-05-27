@@ -137,3 +137,16 @@ class MessageList(Resource):
 
 
 
+
+
+
+app = Flask(__name__)
+api = Api(app)
+api.add_resource(MessageList, "/api/message")
+api.add_resource(Message, "/api/message/<int:id>", 
+				endpoint = "message_endpoint"
+				)
+
+
+if __name__ == "__main__":
+	app.run(debug = True)
