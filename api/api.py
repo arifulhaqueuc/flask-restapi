@@ -1,9 +1,9 @@
 from flask import Flask
 from flask_restful import abort, Api, fields, marshal_with, reqparse, Resource
-import datatime
+from datetime import datetime
 from models import MessageModel
 import status
-##from pytz import utc
+from pytz import utc
 
 
 class MessageManager():
@@ -125,9 +125,10 @@ class MessageList(Resource):
 							)
 		
 		args = parser.parse_args()
+
 		message = MessageModel(message=args['message'],
 							duration=args['duration'],		
-							creation_date=datetime.now(),
+							creation_date=datetime.now(utc),
 							message_category=args['message_category']
 							)
 		message_manager.insert_message(message)
