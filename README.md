@@ -1,33 +1,32 @@
-Flask RestAPI
+Flask Restful API
 ===
-A Flask-RestFul application that can perform CRUD operations. 
-
+A RestAPI developed in Python/Flask, and its Flask-RESTful extension. This is a RESTful Web API application that can perform CRUD operations on a simple list. 
 
 #### Concepts Used
-	- Flask app
-	- Rest API
-	- Rest API with Flask
-	- OOP
-	- Flask RestFul Resources
-	- curl
-	- httpie
+ - Python/Flask
+ - Rest API
+ - Flask-RESTful
+ - OOP
+ - Flask RestFul Resources
+ - curl
+ - httpie
 
 
 
 #### Dependencies Installed
-	- flask-restful	
+ - flask-restful	
 
 
 
 #### Libraries Used or imported
-	- abort
-	- Api
-	- fields
-	- marshal_with
-	- reqparse
-	- Resource
-	- datatime
-	- import utc
+- abort
+- Api
+- fields
+- marshal_with
+- reqparse
+- Resource
+- datetime
+- import utc
 
 
 
