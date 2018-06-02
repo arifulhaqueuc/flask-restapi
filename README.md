@@ -1,6 +1,9 @@
-Flask Restful API
+About the Project
 ===
-A RestAPI developed in Python/Flask, and its Flask-RESTful extension. This is a RESTful Web API application that can perform CRUD operations on a simple list. 
+This is a Restful API developed in Python/Flask. The objective of this application is to 
+perform CRUD operations on a given list. 
+
+
 
 #### Concepts Used
  - Python/Flask
@@ -13,12 +16,13 @@ A RestAPI developed in Python/Flask, and its Flask-RESTful extension. This is a 
 
 
 
-#### Dependencies Installed
+#### Dependencies Installed 
+The following libraries/dependencies are imported and they are installed in local Virtual Environment
  - flask-restful	
 
 
 
-#### Libraries Used or imported
+#### Libraries Used
 - abort
 - Api
 - fields
@@ -30,7 +34,21 @@ A RestAPI developed in Python/Flask, and its Flask-RESTful extension. This is a 
 
 
 
-#### REST API Concepts
+#### Technical Concepts
+Let's get a quick recap about the HTTP methods that are called in a RESTful API
+
 Terms | Description
 --- | ---
-patch | patch : This method receives the id of the message that has to be updated or patched in the id argument
+get | Find or show a resource information
+patch | This method receives the id of the message that has to be updated or patched in the id argument
+put | xxx
+post | xxx
+options | xxx
+
+
+
+
+
+
+References
+===
