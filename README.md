@@ -1,6 +1,6 @@
-# flask-restapi
-A Flask-RestFul application that can perform CRUD operations
-
+Flask RestAPI
+===
+A Flask-RestFul application that can perform CRUD operations. 
 
 
 #### Concepts Used
