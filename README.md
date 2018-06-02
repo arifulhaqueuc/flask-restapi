@@ -1,6 +1,6 @@
-### Message API
+Flask Restful API
+===
 A RestAPI developed in Python/Flask, and its Flask-RESTful extension. This is a RESTful Web API application that can perform CRUD operations on a simple list. 
-
 
 #### Concepts Used
  - Python/Flask
