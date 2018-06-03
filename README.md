@@ -64,6 +64,20 @@ options | This method is used to show the available options
 
 
 
+Support & Disclaimer
+===
+#### Support
+If you find a bug in this repo and would like to inform me, you have the following options
+- Please file an issue with detailed description.
+- If you know a possible solution, please create a new brnach, update the code and then submit pull request.
+- If you would like to reach out to me directly with any question, email me at ariful.haque.uc@gmail.com
+
+
+#### General Disclaimer
+This is my personal project and not an official product of any company. 
+If you would like to use this code, please keep it in your mind that, 
+although I have tried to make it as error-free as possible, there's no warranty of a 100% bug free application.
+
 
 
 
