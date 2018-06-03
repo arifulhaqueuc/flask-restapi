@@ -23,7 +23,8 @@ understand how to perform CRUD operations on a given list in a Flask API.
  
 
 #### Technical Specifications
- - Python/Flask
+ - Python 3
+ - Flask
  - Rest API
  - Flask-RESTful
  - OOP
