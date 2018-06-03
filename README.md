@@ -1,11 +1,28 @@
 About the Project
 ===
-This is a Restful API developed in Python/Flask. The objective of this application is to 
-perform CRUD operations on a given list. 
+This is a Restful API developed in Python/Flask. The objective of this project is to help us 
+understand how to perform CRUD operations on a given list in a Flask API.  
 
 
 
-#### Concepts Used
+#### Table of Contents
+- How to run the project in local machine
+- Technical specifications of the application
+- Dependencies used in this project
+- Libraries Used in this project
+- Intro about the technical concepts
+- Support and Disclaimer
+- References
+
+
+
+#### How to Run
+ - clone the repo
+ - create a virtual environment(using python 3)
+ - run the application
+ 
+
+#### Technical Specifications
  - Python/Flask
  - Rest API
  - Flask-RESTful
@@ -30,7 +47,7 @@ The following libraries/dependencies are imported and they are installed in loca
 - reqparse
 - Resource
 - datetime
-- import utc
+- utc
 
 
 
@@ -41,9 +58,9 @@ Terms | Description
 --- | ---
 get | Find or show a resource information
 patch | This method receives the id of the message that has to be updated or patched in the id argument
-put | xxx
-post | xxx
-options | xxx
+put | Put method is used to update an existing resource
+post | This is used to create a new resource
+options | This method is used to show the available options 
 
 
 
@@ -52,3 +69,5 @@ options | xxx
 
 References
 ===
+[1]https://flask-restful.readthedocs.io/en/latest/
+[2]http://flask.pocoo.org/docs/1.0/api/
